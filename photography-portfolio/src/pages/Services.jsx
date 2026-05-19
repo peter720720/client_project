@@ -4,7 +4,7 @@ import WhatsAppBubble from '../components/WhatsAppBubble';
 export default function Services({ photos }) {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 animate-fade-in">
-      <h2 className="text-3xl font-bold text-blue-600 mb-10 text-center border-b pb-4 tracking-tight">Our Showcase Gallery</h2>
+      <h2 className="text-3xl font-bold text-blue-600 mb-10 text-center border-b pb-4 tracking-tight">My Recent Works</h2>
       
       {photos.length === 0 ? (
         <div className="text-center py-20 bg-blue-50/50 rounded-2xl border-2 border-dashed border-blue-200">

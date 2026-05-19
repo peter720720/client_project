@@ -8,8 +8,8 @@ export default function Services({ photos }) {
       
       {photos.length === 0 ? (
         <div className="text-center py-20 bg-blue-50/50 rounded-2xl border-2 border-dashed border-blue-200">
-          <p className="text-2xl font-semibold text-blue-500">Coming Soon</p>
-          <p className="text-slate-500 mt-2">The administrator is currently preparing and uploading beautiful edits!</p>
+          <p className="text-2xl font-semibold text-blue-500">Moments Loading...</p>
+          <p className="text-slate-500 mt-2">New creative works will appear here shortly!</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

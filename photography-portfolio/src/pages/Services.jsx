@@ -17,7 +17,7 @@ export default function Services({ photos }) {
             <div 
               key={index} 
               className="bg-white rounded-2xl shadow-md hover:shadow-xl overflow-hidden border border-slate-100 flex flex-col transition-all duration-300 transform hover:-translate-y-1.5 group"
-            // >
+            >
               <div className="overflow-hidden relative h-64 bg-slate-100">
                 <img 
                   src={item.src} 
